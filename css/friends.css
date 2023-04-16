@@ -1,0 +1,121 @@
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 auto;
+	margin: 0 auto;
+	background: #B4E4FF;
+}
+
+#container{
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+
+#title{
+	height: 10vh;
+	display: flex;
+	background: #DFFFD8;
+}
+
+#title a{
+	flex: 1;
+	text-align: center;
+	display: flex;
+	height: 100%;
+	font-size: 30px;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	color: 	black;
+
+}
+
+#title a:hover{
+	background: rgba(0, 0, 0,0.1);
+}
+
+
+
+#titleH{
+	text-align: center;
+	font-size: 60px;
+	flex: 0.8;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+#requests{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.request{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 30px;
+}
+
+.request button{
+	font-size: 35px;
+	flex: 1;
+	margin: 0 auto;
+
+	padding: 0 auto;
+
+}
+
+.request > *{
+	border: 1px solid black;
+	width: 100%;
+	height: 7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0 auto;
+
+}
+
+#fForm {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	padding: 0px 20%;
+	flex: 2;
+	font-size: 30px;
+}
+
+#fForm > *{
+	margin: 0.5rem;
+	font-size: 30px;
+}
+
+#aBtn {
+	background-color: #F7C8E0;
+	border: none;
+	color: black;
+
+}
+
+#aBtn:hover {
+	color: white;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.reject {
+	background: red;
+}
+
+.accept {
+	background: green;
+}

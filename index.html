@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+	<div id="logo">
+		<img src="https://www.chess.com//bundles/web/images/color-icons/cup.svg">
+	</div>
+
+	<div id="main">
+		<p id="errorH"></h1>	
+		<form>
+			Username <input type="text" name="username" id="nameBox">
+			Password <input type="password" name="password" id="passBox">
+
+			<button id="submitBtn">Login</button>
+			<div>or</div>
+			<button id="createBtn">Create Account</button>
+		</form>
+
+	</div>
+	<script src="js/api.js"></script>
+	<script src="js/log/index.js"></script>
+
+</body>
+</html>

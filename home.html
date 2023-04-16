@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="up">
+			<div id="left">
+				<div id="friend">
+					<a href="friend.html" id="str">friend</a>
+					<div id="friends">
+
+					</div>
+				</div>
+				<div id="logout">
+					<button href="#" id="log">logout</button>
+				</div>
+			</div>
+			<div id="right">
+				<div id="time">
+					<h6 id="last"></h6>
+					<h6 id="next"></h6>				
+				</div>
+
+				<h1>Leader board</h1>
+				<div id="top10">
+					
+				</div>
+			</div>
+		</div>
+		<div id="down">
+			<a href="game.html" id="random">GAME</a>
+			<a href="write.html">write</a>
+		</div>
+	</div>
+
+
+	<script src="js/api.js"></script>
+	<script src="js/home/fFriend.js"></script>
+	<script src="js/home/home.js"></script>
+</body>
+</html>

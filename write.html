@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Twitter</title>
+	<link rel="stylesheet" type="text/css" href="css/create.css">
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+	<div id="title">
+		<a href="home.html">Home</a>
+		<a href="friend.html">Friend</a>
+		<a href="random.html">GAME</a>
+	</div>
+
+	<div id="main">
+		<div id="textDiv">
+			<textarea placeholder="Type something ..." required id="text"></textarea>
+		</div>
+		<div id="btn">
+			<button id="textBtn">Tweet</button>
+		</div>
+	</div>
+
+	<script src="js/api.js" ></script>
+	<script src="js/write.js" ></script>
+</body>
+</html>

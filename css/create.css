@@ -1,0 +1,70 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	color: #222831;
+	background: #EEEEEE;
+}
+
+textarea {
+	margin-top: 1rem;
+	resize: none;
+	font-size: 30px;
+	width: 85%;
+	height: 30rem;
+	border: none ;
+	outline: none;
+}	
+
+#title{
+	display: flex;
+	background: #00ADB5;
+}
+
+#title a{
+	flex: 1;
+	text-align: center;
+	display: flex;
+	height: 100%;
+	font-size: 30px;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem 0;
+
+}
+
+#title a:hover{
+	background: rgba(0, 0, 0,0.1);
+}
+
+#textDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+button {
+	float: right;
+	width: 15%;
+	margin: 50px;
+	padding: 20px;
+	font-size: 30px;
+	background: #393E46;
+	color: #EEEEEE;
+}
+
+button:hover{
+	background: #EEEEEE;
+	color: #393E46;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

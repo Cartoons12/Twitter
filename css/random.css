@@ -1,0 +1,64 @@
+#title{
+	display: flex;
+	background: #00ADB5;
+}
+
+#title a{
+	flex: 1;
+	text-align: center;
+	display: flex;
+	height: 100%;
+	font-size: 30px;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+}
+
+#title a:hover{
+	background: rgba(0, 0, 0,0.1);
+}
+
+
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	font-size: 50px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 100vh;
+	background: #EEF1FF;
+}
+
+button{
+	font-size: 40px;
+}
+
+#question {
+	font-size: 50px;
+	padding: 50px;
+
+}
+
+#answer{
+	display: flex;
+	width: 100%;
+}
+
+#answer button{
+	flex: 1;
+	background: #B1B2FF;
+	border-color: #AAC4FF;
+	border-style: solid;
+	padding: 2rem;
+}
+
+#answer button:hover{
+	background-color: #D2DAFF;
+}
+
+h1{
+	margin: 0 auto;
+}

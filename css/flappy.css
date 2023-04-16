@@ -1,0 +1,20 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	background: url(https://i.pinimg.com/564x/21/4a/0a/214a0a70e9ae043a415827cac6e18193.jpg);
+	background-repeat: round;
+}
+
+main {
+	display: flex;
+	height: 100vh;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+canvas {
+	border: 4px solid orange;
+
+}

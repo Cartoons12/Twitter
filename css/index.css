@@ -1,0 +1,70 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+
+}
+
+body, button{
+	color: #222831;
+	font-size: 40px;
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin-bottom: 2rem;
+	border-radius: 30px;
+	border: none;
+	background-color: #04aa6d;
+	color: white;
+}
+
+input{
+	display: block;
+	font-size: 40px;
+	padding: 2px;
+	border-width: 2px;
+	border-color: #e3e3e3;
+}
+
+#main{
+	align-content: center;
+	align-items: center;
+}
+
+form{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	align-items: center;
+	background-repeat: no-repeat;
+	align-items: stretch;
+	padding: 20px;
+	border: 2px solid black;
+	text-align: left;
+	font-size: 30px;
+}
+
+form > * {
+	margin-bottom: 3rem;
+
+}
+
+#logo {
+	display: block;
+	text-align: left;		
+
+}
+#logo img{
+	height: 3rem;
+}
+
+#errorH {
+	font-size: 20px;
+	color: red;
+}
+
+form div {
+	text-align: center;
+}
